@@ -2,4 +2,3 @@
 const InvariantError = require('../../exceptions/InvariantError');
 
 const { NotePayloadSchema } = require('./schema');
-
