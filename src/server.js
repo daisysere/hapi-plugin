@@ -32,6 +32,8 @@ Server.js memiliki tanggung jawab menyimpan kode berupa:
 
 /* eslint-disable no-unused-vars */
 const Hapi = require('@hapi/hapi');
+
+// notes
 const notes = require('./api/notes');
 const NotesService = require('./services/inMemory/NotesService');
 const NotesValidator = require('./validator/notes');
